@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compaible" content="IE-edge" />
+    <title>Pavan - Personal Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <script
+      src="https://kit.fontawesome.com/e78bde5a17.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav class="nav-container">
+          <div>
+            <img
+              class="portfolio-logo"
+              src="https://th.bing.com/th/id/R.eefc6b847e3cfd368275cbea05c2bee0?rik=xOyhvvD3ybtwyQ&riu=http%3a%2f%2fwww.thefreedomtrader.com%2fwp-content%2fuploads%2f2017%2f03%2fportfolio.jpg&ehk=j%2bTc%2bNmcObesobtSA6IeLH9xzypOAePEK%2bdAy9r6BRI%3d&risl=&pid=ImgRaw&r=0"
+            />
+          </div>
+          <div>
+            <ul class="nav-elements-list">
+              <li class="nav-elements"><a href="#header"> Home </a></li>
+              <li class="nav-elements"><a href="#about"> About Me </a></li>
+              <li class="nav-elements"><a href="#works"> works </a></li>
+              <li class="nav-elements"><a href="#services"> Service </a></li>
+              <li class="nav-elements"><a href="#contact"> Contact </a></li>
+            </ul>
+          </div>
+        </nav>
+        <hr />
+        <div class="header-text">
+          <p class="role">FullStack Developer</p>
+          <h1 class="intro">Hi, I'm <span>Magini Pavan </span> from India</h1>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="https://info.saucelabs.com/rs/468-XBT-687/images/Bot%20-%20Coding.png"
+              class="image-1"
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="sub-desc">
+              As a FullStack developer, my proficiency spans HTML, CSS, and
+              JavaScript, enabling me to craft visually appealing and
+              interactive user interfaces. These languages form the bedrock of
+              my ability to transform design concepts into functional and
+              user-friendly web applications across diverse platforms and
+              devices. Beyond frontend expertise, I command a versatile skill
+              set encompassing Python, Java, C, and C++, allowing me to navigate
+              backend development and contribute to full-stack projects.
+              Additionally, my proficiency in database management systems like
+              SQLite and MySQL empowers me to design efficient data storage
+              solutions, ensuring optimal application performance
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span> FrontEnd </span> <br />
+                  Designing Web Applications
+                </li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>
+                  <span> BackEnd </span> <br />
+                  Designing Database
+                </li>
+                <li>MYSQL</li>
+                <li>SQlite</li>
+                <li>
+                  <span> Other Skills </span>
+                </li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>C</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <p>
+                Done some handful projects using
+                <span>HTML, CSS, and JavaScript</span> such as:-
+              </p>
+              <ul>
+                <li>Movie website clone</li>
+                <li>Online code Editor</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span> 2021-2025 </span> <br />
+                  B.Tech, from TKR college of engineering and technology
+                </li>
+                <li>
+                  <span> 2019-2021 </span> <br />
+                  Intermediate, from Sri Medhavi Junior college
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Offer custom website development services using HTML, CSS, and
+              JavaScript. Develop responsive, visually appealing, and functional
+              websites tailored to clients' specific needs.
+            </p>
+            <a href="#"> Learn More </a>
+          </div>
+          <div>
+            <i class="fa-solid fa-laptop"></i>
+            <h2>Frontend Development</h2>
+            <p>
+              Create interactive and user-friendly interfaces using HTML, CSS,
+              and JavaScript frameworks like React.js or Vue.js. Implement
+              animations, transitions, and responsive designs for enhanced user
+              experiences
+            </p>
+            <a href="#"> Learn More </a>
+          </div>
+          <div>
+            <i class="fa-solid fa-database"></i>
+            <h2>Backend Development</h2>
+            <p>
+              Build robust server-side applications and APIs using Python, Java,
+              or Node.js. Utilize your knowledge of databases (SQLite, MySQL) to
+              manage data effectively and ensure seamless functionality.
+            </p>
+            <a href="#"> Learn More </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="works">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <h2>NETFLIX CLONE</h2>
+            <p>
+              <span>Technologies used :</span> HTML, CSS <br />
+              The objective of this project is to design and develop a web page
+              that resembles the Netflix interface, allowing users to browse and
+              explore a collection of movies and TV shows. The clone page should
+              provide an engaging and user-friendly experience.
+            </p>
+            <p>
+              GitHub:
+              <a
+                href="https://github.com/pavanmagini/Netflix-clone-page"
+                target="_blank"
+              >
+              https://github.com/pavanmagini/Netflix-clone-page
+              </a>
+            </p>
+          </div>
+          <div class="work">
+            <h2>ONLINE CODE EDITOR</h2>
+            <p>
+              <span>Technologies used :</span> HTML, CSS, JS <br />
+              The objective of this project is to design and develop an online
+              code editor that supports multiple programming languages,
+              providing users with an interface to write and execute code in a
+              web browser. The code editor should include features such as
+              syntax highlighting, code execution, and output display. (for{
+              HTML, CSS, JS}).
+            </p>
+            <p>
+              GitHub:
+              <a
+                href="https://github.com/pavanmagini/online_codeeditor"
+                target="_blank"
+              >
+              https://github.com/pavanmagini/online_codeeditor
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-regular fa-paper-plane"></i>contact@example.com</p>
+            <p><i class="fa-solid fa-phone"></i>9876543210</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwIyQD9UhQWSk2szV6RYHreu0KTKbokqRqdifuzJw-QmwQx7tcuFyXL5z4BlJQ-Kgl7/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message Sent Successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
